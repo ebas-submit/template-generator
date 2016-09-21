@@ -1,0 +1,2 @@
+Template for Cloud Condensation Particle Counter Data for reporting level 1 data.
+This page contains two templates, including CCN concentration as function of supersaturation and CCN concentration as function of supersaturation and particle diameter.

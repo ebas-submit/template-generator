@@ -1,0 +1,5 @@
+Polydisperse / monodisperse CCNC setups: This page contains templates for both types of setups. Please scroll down to the page bottom for the monodisperse setup template.
+Reference pressure and temperature for flows: A level 1 file contains the data referenced to standard conditions of temperature and pressure (273.15 K, 1013.25 hPa).
+File structure: In contrast to most other level 1 formats, the CCNC level 1 format contains one data line per supersaturation (SS) setpoint (polydisperse setup) or SS / diameter setpoint (monodisperse setup). This is intended to facilitate exact comparisons with other instruments. For monodisperse setups however, the size distribution inversion needs to be applied to the data.
+Calibration periods: Calibration periods should be removed form the data.
+Supersaturation: The supersaturation stated in level 1 CCNC data files should be identical with the target value. The CCN concentration however should be interpolated to the target supersaturartion using the actual, current calibration. The same applies to the particle diameter for monodisperse setups, which is interpolated by the inversion.
